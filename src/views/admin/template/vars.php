@@ -65,4 +65,4 @@ $subheader = (isset($subheader)) ? $subheader : true;
 
 $offset = (isset($result) && isset($result->from)) ? $result->from : 0;
 
-$admin_asset_url = 'packages/scienceguard/sglv-login';
+$admin_asset_url = 'packages/scienceguard/sglv-template-app';
