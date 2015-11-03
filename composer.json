@@ -1,0 +1,23 @@
+{
+    "name": "scienceguard/sglv-template-app",
+    "description": "",
+    "authors": [
+        {
+            "name": "M. Ilman Maulana",
+            "email": "ilman.maulana@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Scienceguard\\SglvTemplateApp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
